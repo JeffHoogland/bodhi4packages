@@ -1,0 +1,12 @@
+Package: elaptopcheck
+Version: 1.02
+Section: main
+Priority: optional
+Depends: acpi
+Architecture: all
+Maintainer: Jeff Hoogland
+Uploaders: Eric Brown, Doug Yanez
+#Vcs-Browser: https://github.com/Feneric/bodhi3packages
+Description: A simple script to enable/disable the e battery module
+ If a battery is not detected, disable the module. If it is - enable it.
+
