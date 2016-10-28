@@ -1,8 +1,8 @@
 Package: bodhi-desktop
-Version: 1.0
+Version: 1.0bodhi1
 Section: main
 Priority: optional
-Depends: bodhi-icons, bodhi-lightdm-theme, bodhi-slideshow, esudo, bodhi-skel, elaptopcheck, moksha, bodhi-profile-moksha, evas-generic-loaders, bash-completion, lupin-casper, policykit-desktop-privileges, packagekit, lxmenu-data, xdg-utils, bodhi-quickstart, python-dbus, apturl-elm, udisks, bodhi-dpkg-settings, pm-utils
+Depends: bodhi-icons, bodhi-lightdm-theme, bodhi-slideshow, esudo, bodhi-skel, elaptopcheck, moksha, bodhi-profile-moksha, bash-completion, lupin-casper, policykit-desktop-privileges, packagekit, lxmenu-data, xdg-utils, bodhi-quickstart, python-dbus, apturl-elm, udisks, bodhi-dpkg-settings, pm-utils
 Recommends: eepdater, epad, ephoto, pcmanfm, ecomorph, ecomp, bc, terminology, bodhi-plymouth-theme, bodhi-plymouth-text, lxrandr, bodhi-theme-terminology-chrome, bodhi-appcenter
 Architecture: all
 Maintainer: Doug Yanez
