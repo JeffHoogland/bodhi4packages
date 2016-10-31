@@ -1,0 +1,2 @@
+mv /usr/share/applications/gdebi.desktop /usr/share/applications/gdebi.old
+ln -s /usr/share/applications/gdebi-moksha.desktop /usr/share/applications/gdebi.desktop 
