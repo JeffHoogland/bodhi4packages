@@ -46,10 +46,15 @@ class SearchableList(Box):
     def callback_item_focused_add( self, ourCB ):
         self.ourList.callback_item_focused_add( ourCB )
     
+    def callback_clicked_double_add( self, ourCB ):
+        self.ourList.callback_clicked_double_add( ourCB )
+    
     def item_append( self, text, ourIcon=None ):
         item = self.ourList.item_append(text, icon=ourIcon)
         self.ourItems.append(item)
         self.keys.append(text)
+        
+        return item
     
     def items_get( self ):
         return self.ourList.items_get()
