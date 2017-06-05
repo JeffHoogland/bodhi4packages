@@ -8,5 +8,5 @@ NoDisplay=false
 StartupNotify=true
 Comment=An elementary frontend for configuring the Moksha desktop
 Terminal=false
-Name=Swami
+Name=System Settings
 StartupWMClass=swami

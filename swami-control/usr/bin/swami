@@ -56,6 +56,7 @@ class MainWin(StandardWindow):
         searchFrame.show()
         
         self.searchEntry = searchEntry = Entry(self, size_hint_weight = EXPAND_BOTH, size_hint_align=FILL_HORIZ)
+        searchEntry.single_line = True
         searchEntry.callback_changed_add(self.searchTextUpdated)
         searchEntry.show()
         
@@ -105,6 +106,8 @@ class MainWin(StandardWindow):
                 if not inSearch:
                     #self.modules[m].button.hide()
                     self.modules[m].button.disabled = True
+                else:
+                    self.modules[m].button.disabled = False
         else:
             for m in self.modules:
                 #self.modules[m].button.show()
